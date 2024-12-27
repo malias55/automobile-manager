@@ -1,19 +1,17 @@
 {
-  "name": "vehifox-backnd",
+  "name": "automobile-manager",
   "version": "1.0.0",
-  "description": "Strapi backend for my project",
+  "description": "Backend für Automobile Manager",
   "main": "server.js",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "build": "strapi build"
   },
   "dependencies": {
     "@strapi/strapi": "latest"
   },
   "engines": {
-    "node": ">=16.x <=18.x",
-    "npm": ">=6.x"
+    "node": ">=16.x <=18.x"
   }
 }
